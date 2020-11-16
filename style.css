@@ -1,0 +1,35 @@
+h1 {
+    font-style: italic;
+}
+
+.noise {
+    background-color: green;
+    display: inline-block;
+    padding: 15px 25px;
+    font-size: 24px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+}
+
+.noise:hover {
+    background-color: grey;
+    color: white;
+}
+
+.noise:active {
+  background-color:green;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+ul.no-bullets {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
